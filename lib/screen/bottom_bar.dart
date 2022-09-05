@@ -35,19 +35,19 @@ class _BottomBarState extends State<BottomBar> {
                 FluentSystemIcons.ic_fluent_search_regular,
               ),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_search_filled),
-              label: "Home"),
+              label: "Search"),
           BottomNavigationBarItem(
               icon: Icon(
                 FluentSystemIcons.ic_fluent_ticket_regular,
               ),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_ticket_filled),
-              label: "Home"),
+              label: "Ticket"),
           BottomNavigationBarItem(
               icon: Icon(
                 FluentSystemIcons.ic_fluent_person_regular,
               ),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_person_filled),
-              label: "Home"),
+              label: "Person"),
 
           /*    BottomNavigationBarItem(
               icon: Icon(Icons.search), label: "Search"),
