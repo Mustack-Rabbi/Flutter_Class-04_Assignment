@@ -23,19 +23,38 @@ class _BottomBarState extends State<BottomBar> {
         showUnselectedLabels: false,
         selectedItemColor: Colors.green,
         unselectedItemColor: Colors.black,
-        items: [
+        items: const [
           BottomNavigationBarItem(
               icon: Icon(
                 FluentSystemIcons.ic_fluent_home_regular,
               ),
-              activeIcon: Icon(FluentSystemIcons.ic_fluent_home_add_filled),
+              activeIcon: Icon(FluentSystemIcons.ic_fluent_home_filled),
               label: "Home"),
-          const BottomNavigationBarItem(
+          BottomNavigationBarItem(
+              icon: Icon(
+                FluentSystemIcons.ic_fluent_search_regular,
+              ),
+              activeIcon: Icon(FluentSystemIcons.ic_fluent_search_filled),
+              label: "Home"),
+          BottomNavigationBarItem(
+              icon: Icon(
+                FluentSystemIcons.ic_fluent_ticket_regular,
+              ),
+              activeIcon: Icon(FluentSystemIcons.ic_fluent_ticket_filled),
+              label: "Home"),
+          BottomNavigationBarItem(
+              icon: Icon(
+                FluentSystemIcons.ic_fluent_person_regular,
+              ),
+              activeIcon: Icon(FluentSystemIcons.ic_fluent_person_filled),
+              label: "Home"),
+
+          /*    BottomNavigationBarItem(
               icon: Icon(Icons.search), label: "Search"),
-          const BottomNavigationBarItem(
+          BottomNavigationBarItem(
               icon: Icon(Icons.airplane_ticket), label: "Ticket"),
-          const BottomNavigationBarItem(
-              icon: Icon(Icons.person), label: "Profile"),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.person), label: "Profile"), */
         ]);
   }
 }
