@@ -2,7 +2,7 @@
 
 ## Flutter Class 04:
 
-> **Class 3 Topic:** BottomnNavigtionBar, elevation, BottomNavigationBarItem (icon,label), showSelectedLabels,showUnselectedLabels, selectedItemColor, unselectedItemColor, List[], Packege: Fluentui_icons 1.0.0, VS Code Extensions: Pubspec Assist (Joroen Meijer) .. etc
+> **Class 3 Topic:** BottomnNavigtionBar, elevation, BottomNavigationBarItem (icon,label), showSelectedLabels,showUnselectedLabels, selectedItemColor, unselectedItemColor, List[ ], Packege: Fluentui_icons 1.0.0, VS Code Extensions: Pubspec Assist (Joroen Meijer) .. etc
 
 ---
 
